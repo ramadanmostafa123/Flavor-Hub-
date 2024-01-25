@@ -1,9 +1,15 @@
-# Restaurant/Food Delivery App UI kit in Flutter
+# Flavor Hub 
+Flutter Restaurant/Food Delivery App UI Kit
 
-We build Flutter Restaurant/Food delivery app UI Kit to help you build a nice clean app for restaurent using flutter which runs both Android and iOS. This kit comes packed with 25 beautifully designed screens and a hearty portion of deliciously responsive components. Also, we have skeleton loading and have separate components for both Android and iOS so that you feel the native experience.
+## Key Features
+
+- **25 Beautifully Designed Screens:** Explore a diverse range of carefully crafted screens to provide a seamless user experience.
+- **Responsive Components:** Enjoy an extensive selection of components that adapt seamlessly to various screen sizes.
+- **Cross-Platform Compatibility:** Run your app effortlessly on both Android and iOS platforms.
+
 
 ## Screenshots
 
 ![All pages](/preview.png)
 
-![Preview](/foodly_thun.png)
+
