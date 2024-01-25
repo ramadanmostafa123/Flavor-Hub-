@@ -7,10 +7,10 @@ class FeaturedItems extends StatelessWidget {
   const FeaturedItems({
     Key? key,
   }) : super(key: key);
-
+ 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Column( 
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(

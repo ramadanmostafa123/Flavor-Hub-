@@ -11,7 +11,7 @@ class PriceRow extends StatelessWidget {
 
   final String text;
   final double price;
-
+ 
   @override
   Widget build(BuildContext context) {
     return Row(

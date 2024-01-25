@@ -10,7 +10,7 @@ class OrderedItemCard extends StatelessWidget {
     required this.description,
     required this.price,
   }) : super(key: key);
-  final int numOfItem;
+  final int numOfItem; 
   final String? title, description;
   final double? price;
 

@@ -8,7 +8,7 @@ class SmallDot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 4,
+      height: 4, 
       width: 4,
       decoration: BoxDecoration(
         color: Theme.of(context).textTheme.bodyLarge!.color!.withOpacity(0.4),

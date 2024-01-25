@@ -9,8 +9,8 @@ class FeaturedItemCard extends StatelessWidget {
     required this.foodType,
     required this.image,
     required this.priceRange,
-    required this.press,
-    required this.title,
+    required this.press, 
+    required this.title, 
   }) : super(key: key);
 
   final String foodType, image, priceRange, title;

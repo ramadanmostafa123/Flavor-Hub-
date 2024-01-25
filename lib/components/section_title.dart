@@ -10,8 +10,7 @@ class SectionTitle extends StatelessWidget {
     required this.press,
   }) : super(key: key);
 
-// Main Section means on Home page section
-  final bool isMainSection;
+  final bool isMainSection; 
   final String title;
   final VoidCallback press;
 

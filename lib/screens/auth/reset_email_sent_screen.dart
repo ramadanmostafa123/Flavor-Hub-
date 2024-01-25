@@ -7,10 +7,10 @@ import '../../components/welcome_text.dart';
 class ResetEmailSentScreen extends StatelessWidget {
   const ResetEmailSentScreen({super.key});
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar( 
         title: const Text("Forgot Password"),
       ),
       body: SingleChildScrollView(

@@ -81,7 +81,7 @@ class SignUpScreen extends StatelessWidget {
                     BlendMode.srcIn,
                   ),
                 ),
-              ),
+              ), 
               const SizedBox(height: defaultPadding),
 
               // Google

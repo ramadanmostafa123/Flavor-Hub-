@@ -10,7 +10,7 @@ class PromotionBanner extends StatefulWidget {
 
   @override
   _PromotionBannerState createState() => _PromotionBannerState();
-}
+} 
 
 class _PromotionBannerState extends State<PromotionBanner> {
   bool isLoading = true;

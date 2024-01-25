@@ -6,7 +6,8 @@ class ScaltonLine extends StatelessWidget {
     this.height = 15,
     this.width = double.infinity,
   }) : super(key: key);
-
+ 
+  
   final double height, width;
 
   @override

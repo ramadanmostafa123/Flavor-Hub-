@@ -7,7 +7,7 @@ import '../../../demoData.dart';
 import '../../details/details_screen.dart';
 
 class MediumCardList extends StatefulWidget {
-  const MediumCardList({
+  const MediumCardList({ 
     Key? key,
   }) : super(key: key);
 

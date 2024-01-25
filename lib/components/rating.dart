@@ -11,7 +11,7 @@ class Rating extends StatelessWidget {
   final double rating;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
       decoration: const BoxDecoration(

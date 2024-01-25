@@ -1,6 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:foodly_ui/screens/findRestaurants/find_restaurants_screen.dart';
+import 'package:foodly_ui/screens/home/home_screen.dart';
 
 import '../../components/buttons/socal_button.dart';
 import '../../components/welcome_text.dart';
@@ -31,7 +33,17 @@ class SignInScreen extends StatelessWidget {
               ),
               const SignInForm(),
               const SizedBox(height: defaultPadding),
-              kOrText,
+              GestureDetector(
+                  onTap: () {
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const FindRestaurantsScreen(),
+                      ),
+                      (_) => true,
+                    );
+                  },
+                  child: kOrText),
               const SizedBox(height: defaultPadding * 1.5),
 
               Center(

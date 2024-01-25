@@ -5,12 +5,13 @@ class SocalButton extends StatelessWidget {
   final String text;
   final Widget icon;
   final GestureTapCallback press;
-
+ 
   const SocalButton(
       {Key? key,
       required this.color,
       required this.icon,
       required this.press,
+
       required this.text})
       : super(key: key);
   @override

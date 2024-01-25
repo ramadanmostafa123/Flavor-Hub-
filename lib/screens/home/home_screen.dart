@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                   .copyWith(color: primaryColor),
             ),
             const Text(
-              "San Francisco",
+              "shebien Elkoum",
               style: TextStyle(color: Colors.black),
             )
           ],

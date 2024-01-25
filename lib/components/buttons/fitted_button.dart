@@ -4,11 +4,14 @@ import '../../constants.dart';
 
 class FittedButton extends StatelessWidget {
   const FittedButton({
+
     Key? key,
     this.isActive = false,
     required this.text,
     required this.press,
   }) : super(key: key);
+
+
 
   final bool? isActive;
   final String? text;

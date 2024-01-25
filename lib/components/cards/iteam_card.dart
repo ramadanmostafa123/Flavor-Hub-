@@ -14,11 +14,11 @@ class ItemCard extends StatelessWidget {
     required this.price,
     required this.priceRange,
     required this.press,
-  }) : super(key: key);
+  }) : super(key: key); 
 
   final String? title, description, image, foodType, priceRange;
-  final double? price;
-  final VoidCallback press;
+  final double? price;  
+  final VoidCallback press; 
 
   @override
   Widget build(BuildContext context) {

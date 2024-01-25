@@ -11,9 +11,9 @@ class PriceRangeAndFoodtype extends StatelessWidget {
   }) : super(key: key);
 
   final String priceRange;
-  final List<String> foodType;
+  final List<String> foodType; 
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Row(
       children: [

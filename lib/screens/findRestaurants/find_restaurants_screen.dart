@@ -8,7 +8,7 @@ import '../../constants.dart';
 
 class FindRestaurantsScreen extends StatelessWidget {
   const FindRestaurantsScreen({super.key});
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(

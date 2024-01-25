@@ -10,7 +10,7 @@ import 'screens/search/search_screen.dart';
 
 class EntryPoint extends StatefulWidget {
   const EntryPoint({
-    Key? key,
+    Key? key, 
   }) : super(key: key);
 
   @override

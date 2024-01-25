@@ -5,6 +5,7 @@ import 'scalton_line.dart';
 
 class BigCardScalton extends StatelessWidget {
   const BigCardScalton({
+     
     Key? key,
   }) : super(key: key);
 

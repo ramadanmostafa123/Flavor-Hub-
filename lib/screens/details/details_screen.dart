@@ -10,7 +10,7 @@ import 'components/restaurrant_info.dart';
 class DetailsScreen extends StatelessWidget {
   const DetailsScreen({super.key});
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

@@ -12,7 +12,7 @@ class Dietaries extends StatefulWidget {
   _DietariesState createState() => _DietariesState();
 }
 
-class _DietariesState extends State<Dietaries> {
+ class _DietariesState extends State<Dietaries> {
   @override
   Widget build(BuildContext context) {
     return Column(

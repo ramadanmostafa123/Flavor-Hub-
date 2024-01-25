@@ -9,7 +9,7 @@ class TotalPrice extends StatelessWidget {
   });
 
   final double price;
-
+ 
   @override
   Widget build(BuildContext context) {
     return Row(

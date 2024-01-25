@@ -8,7 +8,7 @@ import 'components/total_price.dart';
 
 class OrderDetailsScreen extends StatelessWidget {
   const OrderDetailsScreen({super.key});
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(

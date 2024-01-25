@@ -7,7 +7,8 @@ class MediumCardScalton extends StatelessWidget {
   const MediumCardScalton({
     Key? key,
   }) : super(key: key);
-
+ 
+  
   @override
   Widget build(BuildContext context) {
     return const SizedBox(

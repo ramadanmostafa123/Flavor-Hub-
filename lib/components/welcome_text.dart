@@ -6,7 +6,8 @@ class WelcomeText extends StatelessWidget {
 
   const WelcomeText({Key? key, required this.title, required this.text})
       : super(key: key);
-  @override
+  @override 
+   
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

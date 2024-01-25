@@ -7,9 +7,9 @@ import '../../../constants.dart';
 class RestaurantInfo extends StatelessWidget {
   const RestaurantInfo({
     Key? key,
-  }) : super(key: key);
+  }) : super(key: key); 
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: defaultPadding),

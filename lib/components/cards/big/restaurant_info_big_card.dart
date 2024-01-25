@@ -51,13 +51,13 @@ class RestaurantInfoBigCard extends StatelessWidget {
                 colorFilter: ColorFilter.mode(
                   Theme.of(context)
                       .textTheme
-                      .bodyLarge!
+                      .bodyLarge!  
                       .color!
                       .withOpacity(0.5),
                   BlendMode.srcIn,
                 ),
               ),
-              const SizedBox(width: 8),
+              const SizedBox(width: 8), 
               Text(
                 "$deliveryTime Min",
                 style: Theme.of(context).textTheme.labelSmall,

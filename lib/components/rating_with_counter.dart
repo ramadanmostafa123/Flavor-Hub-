@@ -11,8 +11,8 @@ class RatingWithCounter extends StatelessWidget {
   }) : super(key: key);
 
   final double rating;
-  final int numOfRating;
-
+  final int numOfRating;  
+ 
   @override
   Widget build(BuildContext context) {
     return Row(

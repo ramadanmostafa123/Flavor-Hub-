@@ -36,7 +36,8 @@ class _BigCardImageSlideState extends State<BigCardImageSlide> {
                 BigCardImage(image: widget.images[index]),
           ),
           Positioned(
-            bottom: defaultPadding,
+              
+            bottom: defaultPadding,  
             right: defaultPadding,
             child: Row(
               children: List.generate(

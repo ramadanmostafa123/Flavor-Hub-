@@ -8,7 +8,7 @@ import 'components/price_range.dart';
 class FilterScreen extends StatelessWidget {
   const FilterScreen({super.key});
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

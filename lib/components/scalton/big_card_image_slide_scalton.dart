@@ -7,10 +7,11 @@ class BigCardImageSlideScalton extends StatelessWidget {
   const BigCardImageSlideScalton({
     Key? key,
   }) : super(key: key);
+   
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Stack( 
       children: [
         Container(
           decoration: BoxDecoration(

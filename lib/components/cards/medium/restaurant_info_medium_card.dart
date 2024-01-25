@@ -12,10 +12,10 @@ class RestaurantInfoMediumCard extends StatelessWidget {
     required this.location,
     required this.rating,
     required this.delivertTime,
-    required this.press,
+    required this.press, 
   }) : super(key: key);
 
-  final String image, name, location;
+  final String image, name, location; 
   final double rating;
   final int delivertTime;
   final VoidCallback press;

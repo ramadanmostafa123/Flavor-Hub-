@@ -6,9 +6,11 @@ class ScaltonRoundedContainer extends StatelessWidget {
     this.height = double.infinity,
     this.width = double.infinity,
     this.radious = 10,
+     
+       
   }) : super(key: key);
 
-  final double height, width, radious;
+  final double height, width, radious; 
 
   @override
   Widget build(BuildContext context) {
